@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #555;
+    text-align: center;
+}
+
+.timerandscore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#timer,
+#score {
+    font-size: 20px;
+    margin: 0;
+}
+
+#number {
+    margin: 0;
+    font-size: 18px;
+}
+
+.question {
+    margin-top: 20px;
+}
+
+#question_conatiner {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#option_container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#option_container button:hover {
+    background-color: #e0e0e0;
+}
+
+#click {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: rgb(63, 197, 241);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#click:hover {
+    background-color: rgb(63, 197, 241);
+    color: white;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #020000;
+    text-decoration:double
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.231);
+}
+
+ 
